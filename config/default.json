@@ -1,0 +1,50 @@
+{    
+    "DB_TRANSANCTION_TYPES": {
+        "C": "CREATE",
+        "U": "UPDATE",
+        "D": "DELETE"
+    },
+    "JWT": {
+        "AUTH_SECRET_KEY": "$dfdf#",
+        "AUTH_EXPIRES_IN": "1d",
+        "FORGOTPWD_SECRET_KEY": "$3454dgdfg#",
+        "FORGOTPWD_EXPIRES_IN": "1d"
+    },
+    "PWD_SALT_ROUND": 10,
+    "DBCHANGELOG_TABLES": [],
+    "DBCHANGELOG_EXCLUDED_TABLES": ["timecreated", "lasttimeupdated", "id"],
+    "PASSWORD": {
+        "MIN_LENGTH": 8,
+        "ATLEAST_ONE_LOWERCASE_CHAR": true,
+        "ATLEAST_ONE_UPPERCASE_CHAR": true,
+        "ATLEAST_ONE_NUMBER": true,
+        "ATLEAST_ONE_SPECIAL_CHAR": true
+    },
+    "MESSAGES": {
+        "EMPTY": "Field is required",
+        "INVALID": "Invalid Value",
+        "INVALID_URL": "Please provide a valid URL",
+        "ALL_FIELDS_MANDATORY": "All Fields are required",
+        "PWD_WRONG": "Password is wrong",
+        "USERNAME_UNIQUE": " not available",
+        "NOT_AUTHORIZED": "Not Authorized to access this resource",
+        "USER": {
+            "NOT_EXIST": "Your account not exist",
+            "NOT_ACTIVE": "Your account is not active, please contact to support",
+            "EMAIL_NOT_VERIFIED": "Please verify your email",
+            "TOKEN_INVALID": "Token is wrong",
+            "EMAIL_ALLREADY_VERIFIED": "Your email already verfied",
+            "PWD_WRONG": "Password is wrong",
+            "OLD_PWD_WRONG": "Old Password is wrong"
+        },
+        "AUTH": {
+            "PASSWORD_NOT_SET": "Please set your password first.",
+            "USER_NOT_FOUND": "Incorrect Username/Email and Password combination.",
+            "INVALID_PASSWORD": "Incorrect Username/Email and Password combination."
+        }
+    },
+    "SERVER": {
+		"KEEP_ALIVE_TIMEOUT": 61,
+		"HEADERS_TIMEOUT": 65
+	}
+}

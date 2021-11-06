@@ -1,0 +1,31 @@
+{
+    "SERVICE": {
+        "SWAGGER_URL": "http://localhost:8000",
+        "URL": "http://localhost:8000"
+    },
+    "WEBSITE_URL": "",
+    "DB": {
+        "USER": "root",
+        "PASS": "Rishabh1!",
+        "NAME": "rishabh_test",
+        "HOST": "localhost"
+    },
+    "JWT": {
+        "AUTH_SECRET_KEY": "$herapheri@2020#",
+        "AUTH_EXPIRES_IN": "7d",
+        "FORGOTPWD_SECRET_KEY": "$3454dgdfg#",
+        "FORGOTPWD_EXPIRES_IN": "1d",
+        "REHASH_PWD_KEY": "$jk76er34_",
+        "EMAILVERIFY_SECRET_KEY": "$3454dgdfg#",
+        "EMAILVERIFY_EXPIRES_IN": "1d",
+        "SETPWD_EXPIRES_IN": "7d"
+    },
+    "CLIENT_SECRET": "",
+    "CLIENT_ID": "tl_tic_tac",
+    "AUTO_LOGIN": "Y",
+    "REFRESH_TOKEN_EXPIRES_IN": 30,
+    "CRYPTO": {
+        "ALGORITHM" : "aes-256-ctr",
+        "SECRET_KEY": "byaFRHwKx3sE5JDuVjYyZaVzDFYgBoxM"
+    }
+}
